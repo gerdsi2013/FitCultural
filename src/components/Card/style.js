@@ -28,6 +28,10 @@ export const Cards = styled.div`
     @media (max-width: 480px) {
       h1 {
         font-size: 1.2rem;
+        text-align: center;
+      }
+      p{
+        text-align:  center;
       }
     }
   }
