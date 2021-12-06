@@ -1,9 +1,10 @@
 import { HomeContainer } from "./style";
 
-// import Img from "../../../src/assets/imgteste.png"
 import { Card } from "../../components/Card";
 
 import ReactElasticCarousel from "react-elastic-carousel";
+
+import { Footer } from "../../components/Footer";
 
 export function Home() {
 
@@ -26,6 +27,8 @@ export function Home() {
 
         </Card>
       </ReactElasticCarousel>
+
+      <Footer></Footer>
     </HomeContainer>
   );
 }

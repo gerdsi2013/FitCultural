@@ -5,21 +5,19 @@ export const Cards = styled.div`
   width: 100%;
   min-height: 60vh;
   background-color: rgba(255, 255, 255, 0.05);
-  
+
   h1 {
     color: ${theme.colors.textQuestion};
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: left;
     padding: 1% 3%;
     text-align: justify;
-    
   }
   p {
     color: ${theme.colors.textColor};
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 0% 5%;
     text-align: justify;
-
   }
 
   /* media queris */
@@ -30,8 +28,6 @@ export const Cards = styled.div`
     @media (max-width: 480px) {
       h1 {
         font-size: 1.2rem;
-    
-        
       }
     }
   }

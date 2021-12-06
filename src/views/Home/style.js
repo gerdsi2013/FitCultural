@@ -1,15 +1,17 @@
 import styled from "styled-components";
 import { theme } from "../../style/theme";
-
+import Imagem from "../../assets/background.jpg";
 
 export const HomeContainer = styled.main`
   color: ${theme.colors.prymary};
   width: 100%;
 
+  background-image: url(${Imagem});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
   h1 {
-    
-    
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     width: 100%;
     text-align: center;

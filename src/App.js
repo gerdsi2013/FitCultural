@@ -1,11 +1,10 @@
 import { Home } from "./views/Home";
-import { Footer } from "../src/components/Footer";
+import { MainRouter } from "./MainRouter/main";
 
 export function App() {
   return (
-    <>
+    <MainRouter>
       <Home></Home>
-      <Footer />
-    </>
+    </MainRouter>
   );
 }
