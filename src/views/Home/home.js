@@ -1,10 +1,10 @@
 import { HomeContainer } from "./style";
 
-import { Card } from "../../components/Card";
+import { Card } from "../../components/Card/card";
 
 import ReactElasticCarousel from "react-elastic-carousel";
 
-import { Footer } from "../../components/Footer";
+import { Footer } from "../../components/Footer/footer.js";
 
 export function Home() {
 

@@ -1,7 +1,7 @@
 
 import {Routes, Route} from "react-router-dom"
-import {Home} from "../views/Home"
-import { NotFound } from "../views/NotFound"
+import {Home} from "../views/Home/home"
+import { NotFound } from "../views/NotFound/notfound"
 
 
 

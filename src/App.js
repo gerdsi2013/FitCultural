@@ -1,4 +1,4 @@
-import { Home } from "./views/Home";
+import { Home } from "./views/Home/home.js";
 import { MainRouter } from "./MainRouter/main";
 
 export function App() {
